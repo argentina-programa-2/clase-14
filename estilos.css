@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 20px;
+  background-color: black;
+}
+nav a {
+  padding: 20px 15px;
+  margin: 0 5px;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s all;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.icon {
+  font-size: 33px;
+}
+
+.red {
+  color: red;
+}
